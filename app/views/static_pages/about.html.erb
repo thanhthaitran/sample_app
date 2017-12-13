@@ -1,0 +1,5 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".h1" %></h1>
+<p>
+  <%= t(".p_link", f_link: link_to(content_tag(:em, t(".f_href")), "http://www.railstutorial.org/"), s_link: link_to(t(".s_href"), "http://www.railstutorial.org/book"), t_link:link_to(t(".t_href"), "http://screencasts.railstutorial.org/"), fo_link:link_to(t(".fo_href"), "http://rubyonrails.org/")).html_safe %>
+</p>

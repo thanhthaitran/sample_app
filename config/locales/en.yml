@@ -31,3 +31,28 @@
 
 en:
   hello: "Hello world"
+  static_pages:
+    home:
+      title: "Home"
+      h1: "Sample App"
+      p_link: "This is the home page for the %{f_link} ample application."
+      f_href: "Ruby on Rails Tutorial"
+    about:
+      title: "About"
+      h1: "Sample App"
+      p_link: "The %{f_link} is a %{s_link} and %{t_link}
+              to teach web development with %{fo_link}.
+              This is the sample application for the tutorial."
+      f_href: "Ruby on Rails Tutorial"
+      s_href: "book"
+      t_href: "screencast series"
+      fo_href: "Ruby on Rails"
+    help:
+      title1: "Help"
+      title2: " | Ruby on Rails Tutorial Sample App"
+      h1: "help"
+      p_link: "Get help on the Ruby on Rails Tutorial at the %{f_link}.
+              To get help on this sample app, see the %{s_link}."
+      f_href: "Rails Tutorial help section"
+      s_href: "Ruby on Rails Tutorial book"
+
