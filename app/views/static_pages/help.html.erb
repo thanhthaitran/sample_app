@@ -1,0 +1,13 @@
+<% provide :title, t(".title1") %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %><%= t ".title2" %></title>
+  </head>
+  <body>
+    <h1>Help</h1>
+    <p>
+      <%= t(".p_link", f_link: link_to(t(".f_href"), "http://www.railstutorial.org/help"), s_link: link_to(content_tag(:em ,t(".s_href")), "http://www.railstutorial.org/book")).html_safe %>
+    </p>
+  </body>
+</html>
