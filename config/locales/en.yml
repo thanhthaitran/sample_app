@@ -34,9 +34,11 @@ en:
   static_pages:
     home:
       title: "Home"
-      h1: "Sample App"
-      p_link: "This is the home page for the %{f_link} ample application."
+      h1: "Welcome to the Sample App"
+      h2: "This is the home page for the %{f_link} sample application."
       f_href: "Ruby on Rails Tutorial"
+      link_to: "Sign up now!"
+      alt: "Rails logo"
     about:
       title: "About"
       h1: "Sample App"
@@ -55,4 +57,27 @@ en:
               To get help on this sample app, see the %{s_link}."
       f_href: "Rails Tutorial help section"
       s_href: "Ruby on Rails Tutorial book"
+    contact:
+      title: "Contact"
+      h1: "Contact"
+      p_link: "Contact the Ruby on Rails Tutorial about the sample app at the %{f_link} ."
+      f_href: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      h1: "Sign up"
+      p: "This will be a signup page for new users."
+  layouts:
+    header:
+      link_app: "sample app"
+      link_home: "Home"
+      link_help: "Help"
+      link_lg: "Log in"
+    footer:
+      small: "The %{f_link} by %{s_link}"
+      f_href: "Ruby on Rails Tutorial"
+      s_href: "Michael Hartl"
+      link_about: "About"
+      link_contact: "Contact"
+      link_new: "New"
 
