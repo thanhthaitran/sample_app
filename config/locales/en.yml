@@ -88,4 +88,8 @@ en:
     error_messages:
       error_content: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      Signup: "Sign up now!"
 
