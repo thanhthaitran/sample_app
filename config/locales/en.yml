@@ -101,4 +101,5 @@ en:
       login_sub: "Log in"
       new_user: "New user? %{signup_link}"
       signup: "Sign up now!"
+      span: "Remember me on this computer"
 
