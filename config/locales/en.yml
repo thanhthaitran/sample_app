@@ -34,6 +34,7 @@ en:
   success_signup: "Welcome to the Sample App!"
   helper_tit: "Ruby on Rails Tutorial Sample App"
   error_sign_up: "User not found"
+  error_login: "Invalid email/password combination"
   static_pages:
     home:
       title: "Home"
@@ -77,6 +78,11 @@ en:
       link_home: "Home"
       link_help: "Help"
       link_lg: "Log in"
+      link_users: "Users"
+      link_acc: "Account"
+      link_profile: "Profile"
+      link_setting: "Settings"
+      link_logout: "Log out"
     footer:
       small: "The %{f_link} by %{s_link}"
       f_href: "Ruby on Rails Tutorial"
@@ -88,4 +94,11 @@ en:
     error_messages:
       error_content: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login_tit: "Log in"
+      login_h1: "Log in"
+      login_sub: "Log in"
+      new_user: "New user? %{signup_link}"
+      signup: "Sign up now!"
 
