@@ -5,13 +5,16 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem "rubocop", "~> 0.51.0"
 gem "minitest", "5.10.3"
 gem "minitest-reporters", "1.1.19"
 gem "rails-controller-testing", "1.0.2"
 gem "bootstrap-sass", "3.3.7"
 gem "jquery-rails", "4.3.1"
 gem "bcrypt", "3.1.11"
-gem "rubocop", "~> 0.51.0"
+gem "faker", "1.8.5"
+gem "will_paginate", "3.1.6"
+gem "bootstrap-will_paginate", "1.0.0"
 gem "config", "1.6.1"
 gem "rails", "~> 5.1.4"
 gem "puma", "~> 3.7"
