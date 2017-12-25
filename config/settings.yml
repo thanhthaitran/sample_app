@@ -4,3 +4,6 @@ user_models:
   max_length_password: 6
 sessions_controller:
   value_1: "1"
+size:
+  size_index: 50
+  size_gravatar: 50

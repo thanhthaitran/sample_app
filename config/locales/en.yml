@@ -32,6 +32,9 @@
 en:
   hello: "Hello world"
   success_signup: "Welcome to the Sample App!"
+  success_update: "Profile updated"
+  success_delete: "User deleted"
+  please_login: "Please log in."
   helper_tit: "Ruby on Rails Tutorial Sample App"
   error_sign_up: "User not found"
   error_login: "Invalid email/password combination"
@@ -72,6 +75,17 @@ en:
       h1: "Sign up"
       confirm: "Confirmation"
       submit: "Create my account"
+    edit:
+      title: "Edit user"
+      h1: "Update your profile"
+      submit: "Save changes"
+      a: "change"
+    index:
+      title: "All users"
+      h1: "All users"
+    user:
+      delete: "delete"
+      confirm: "You sure?"
   layouts:
     header:
       link_app: "sample app"
