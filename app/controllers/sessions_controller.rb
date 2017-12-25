@@ -15,12 +15,23 @@ class SessionsController < ApplicationController
 
   def remember_login user
     if user && user.authenticate(params[:session][:password])
-      log_in user
-      params[:session][:remember_me] == Settings.sessions_controller.value_1 ? remember(user) : forget(user)
-      redirect_back_or user
+      login user
     else
       flash.now[:danger] = t "error_login"
       render :new
+    end
+  end
+
+  def login user
+    if user.activated?
+      log_in user
+      params[:session][:remember_me] == Settings.params.value_1 ? remember(user) : forget(user)
+      redirect_back_or user
+    else
+      message = t "message_activate"
+      message += t "message_check"
+      flash[:warning] = message
+      redirect_to root_url
     end
   end
 end
