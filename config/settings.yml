@@ -9,3 +9,5 @@ size:
   size_gravatar: 50
 params:
   value_1: "1"
+password:
+  reset: 2

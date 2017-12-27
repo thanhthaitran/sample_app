@@ -3,7 +3,12 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
-    remember_login user
+    if user && user.authenticate(params[:session][:password])
+      login user
+    else
+      flash.now[:danger] = t "error_login"
+      render :new
+    end
   end
 
   def destroy
@@ -12,15 +17,6 @@ class SessionsController < ApplicationController
   end
 
   private
-
-  def remember_login user
-    if user && user.authenticate(params[:session][:password])
-      login user
-    else
-      flash.now[:danger] = t "error_login"
-      render :new
-    end
-  end
 
   def login user
     if user.activated?
