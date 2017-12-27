@@ -41,9 +41,14 @@ en:
   message_activate: "Account not activated. "
   message_check: "Check your email for the activation link."
   subject_account: "Account activation"
+  subject_pass: "Password reset"
+  not_empty: "can't be empty"
+  pass_expired: "Password reset has expired."
   helper_tit: "Ruby on Rails Tutorial Sample App"
   error_sign_up: "User not found"
   error_login: "Invalid email/password combination"
+  info_email: "Email sent with password reset instructions"
+  danger_email: "Email address not found"
   static_pages:
     home:
       title: "Home"
@@ -122,10 +127,20 @@ en:
       new_user: "New user? %{signup_link}"
       signup: "Sign up now!"
       span: "Remember me on this computer"
+      forgot_pass: "(forgot password)"
   user_mailer:
     account_activation:
       h1: "Sample App"
       hi: "Hi"
       p: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+  password_resets:
+    new:
+      title: "Forgot password"
+      h1: "Forgot password"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      h1: "Reset password"
+      submit: "Update password"
 
