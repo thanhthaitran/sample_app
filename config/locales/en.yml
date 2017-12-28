@@ -102,6 +102,17 @@ en:
       confirm: "You sure?"
     show:
       h3: "Microposts "
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    show_follow:
+      link: "view my profile"
+      b: "Microposts:"
+    following:
+      title_following: "Following"
+    followers:
+      title_followers: "Followers"
   layouts:
     header:
       link_app: "sample app"
@@ -139,6 +150,9 @@ en:
     micropost_form:
       placeholder : "Compose new micropost..."
       submit: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   sessions:
     new:
       login_tit: "Log in"
