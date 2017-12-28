@@ -50,6 +50,7 @@ en:
   error_login: "Invalid email/password combination"
   info_email: "Email sent with password reset instructions"
   danger_email: "Email address not found"
+  size_image: "should be less than 5MB"
   static_pages:
     home:
       title: "Home"
@@ -58,6 +59,7 @@ en:
       f_href: "Ruby on Rails Tutorial"
       link_to: "Sign up now!"
       alt: "Rails logo"
+      h3: "Micropost Feed"
     about:
       title: "About"
       h1: "Sample App"
@@ -98,6 +100,8 @@ en:
     user:
       delete: "delete"
       confirm: "You sure?"
+    show:
+      h3: "Microposts "
   layouts:
     header:
       link_app: "sample app"
@@ -116,10 +120,25 @@ en:
       link_about: "About"
       link_contact: "Contact"
       link_new: "New"
+  microposts:
+    micropost:
+      create: "Posted %{time} ago."
+      link: "delete"
+      confirm: "You sure?"
+    create:
+      sucess_create: "Micropost created!"
+    destroy:
+      success_delete: "Micropost deleted"
   shared:
     error_messages:
       error_content: "The form contains"
       error: "error"
+    user_info:
+      link: "view my profile"
+      micropost: "micropost"
+    micropost_form:
+      placeholder : "Compose new micropost..."
+      submit: "Post"
   sessions:
     new:
       login_tit: "Log in"

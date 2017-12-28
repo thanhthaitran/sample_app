@@ -11,3 +11,11 @@ params:
   value_1: "1"
 password:
   reset: 2
+micro:
+  max_length: 140
+  size_image: 5
+micro_view:
+  size: 50
+user_info:
+  size: 50
+
