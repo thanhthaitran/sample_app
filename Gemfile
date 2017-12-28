@@ -23,6 +23,10 @@ gem "uglifier", ">= 1.3.0"
 gem "coffee-rails", "~> 4.2"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "carrierwave", "1.1.0"
+gem "fog-aws", "2.0.0"
+gem "mini_magick", "4.7.0"
+gem "nokogiri", "1.8.1"
 
 group :development, :test do
   gem "guard", "2.14.1"
