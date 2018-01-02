@@ -18,4 +18,6 @@ micro_view:
   size: 50
 user_info:
   size: 50
+show:
+  size: 30
 
